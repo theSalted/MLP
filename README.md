@@ -1,5 +1,7 @@
 # MLX MLP
 
+Work In Progress
+
 A very simple Mult-Layer Perceptron with [MLX](https://github.com/ml-explore/mlx-swift).
 
 - Note: I use this project to get faimilar with MLX, so it doesn't utilize existing implementation of some methods in MLXNN and MLXOptimizer.
