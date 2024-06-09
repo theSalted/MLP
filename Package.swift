@@ -15,9 +15,10 @@ let package = Package(
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .executableTarget(
-            name: "mlx-package-template",
+            name: "MLP",
             dependencies: [
                 .product(name: "MLX", package: "mlx-swift"),
+                .product(name: "MLXRandom", package: "mlx-swift")
             ]
         )
     ]
