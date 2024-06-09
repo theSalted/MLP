@@ -1,17 +1,8 @@
-# MLX Package Template
+# MLX MLP
 
-For simple [MLX](https://github.com/ml-explore/mlx-swift) playground projects, `.xcodeproj` is overkill and `.playground` don't support dependencies. A Swift Package is your best bet, but configure it can be a hassle. 
+A very simple Mult-Layer Perceptron with [MLX](https://github.com/ml-explore/mlx-swift).
 
-So use this template as a fast and easy way to play with [MLX](https://github.com/ml-explore/mlx-swift). 
-
-- Note: MLX Require Xcode to build Metal. And if you are just get started, please use Xcode.
-
-## Rename the Template
-
-Just rename everything named `mlx-package-template`. Most importantly, the project directory name, and all mentions in `Package.swift`
-
-You can freely name `Template.swift` and `struct Template` to anything you like. 
-
+- Note: I use this project to get faimilar with MLX, so it doesn't utilize existing implementation of some methods in MLXNN and MLXOptimizer.
 
 ## Build Run in CLI
 
@@ -23,15 +14,11 @@ Then `chmod` the helper script:
 
 Then:
 
-`./mlx-run.sh --package mlx-package-template`
-
-(If you renamed project, remember to change `mlx-package-template` arg).
-
+`./mlx-run.sh --package MLP`
 
 ## Troubleshoot
 
 Try build and run project following CLI instruction.
 
-Alternatively run `xcodebuild build -scheme mlx-package-template -destination 'platform=OS X' -derivedDataPath ./.derivedData`
+Alternatively run `xcodebuild build -scheme MLP -destination 'platform=OS X' -derivedDataPath ./.derivedData`
 
-(If you renamed project, remember to change `mlx-package-template` arg).
