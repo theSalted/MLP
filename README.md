@@ -1,7 +1,5 @@
 # MLX MLP
 
-Work In Progress
-
 A very simple Mult-Layer Perceptron with [MLX](https://github.com/ml-explore/mlx-swift).
 
 Data visualization via Swift Charts and SwiftUI.
